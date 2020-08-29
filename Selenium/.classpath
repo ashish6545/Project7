@@ -9,5 +9,6 @@
 	<classpathentry kind="lib" path="C:/Users/Ashish/Downloads/selenium-java-3.141.59(1)/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Ashish/Downloads/selenium-java-3.141.59(1)/client-combined-3.141.59.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/sql/mysqlconnector/mysql-connector.jar/mysql-connector.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
