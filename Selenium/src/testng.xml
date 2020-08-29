@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TmpSuite" >
+  <test name="TmpTest" >
+    <classes>
+      <class name="july15.TestNgBasics"  />
+      <class name="july15.GoogleTest"  />
+      <class name="july15.TestNgFeatures"  />
+      <class name="july15.InvocationCountTest"  />
+      <class name="july15.ExpectedExceptionTest"  />
+    </classes>
+    </test>
+</suite>
