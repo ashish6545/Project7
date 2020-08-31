@@ -2,23 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39026" started-at="2020-08-29T11:16:54Z" finished-at="2020-08-29T11:17:33Z">
+  <suite name="Default suite" duration-ms="38" started-at="2020-08-31T12:04:12Z" finished-at="2020-08-31T12:04:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39026" started-at="2020-08-29T11:16:54Z" finished-at="2020-08-29T11:17:33Z">
+    <test name="Default test" duration-ms="38" started-at="2020-08-31T12:04:12Z" finished-at="2020-08-31T12:04:12Z">
       <class name="Aug29.Selenium">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:Aug29.Selenium@68be2bc2]" name="SetUp" is-config="true" duration-ms="14" started-at="2020-08-29T11:16:54Z" finished-at="2020-08-29T11:16:54Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:Aug29.Selenium@20e2cbe0]" name="SetUp" is-config="true" duration-ms="13" started-at="2020-08-31T12:04:12Z" finished-at="2020-08-31T12:04:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="select()[pri:0, instance:Aug29.Selenium@68be2bc2]" name="select" duration-ms="38999" started-at="2020-08-29T11:16:54Z" finished-at="2020-08-29T11:17:33Z">
+        <test-method status="PASS" signature="insert()[pri:0, instance:Aug29.Selenium@20e2cbe0]" name="insert" duration-ms="8" started-at="2020-08-31T12:04:12Z" finished-at="2020-08-31T12:04:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- select -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Aug29.Selenium@68be2bc2]" name="end" is-config="true" duration-ms="2" started-at="2020-08-29T11:17:33Z" finished-at="2020-08-29T11:17:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
+        </test-method> <!-- insert -->
       </class> <!-- Aug29.Selenium -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

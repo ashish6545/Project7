@@ -38,12 +38,12 @@ public class Selenium {
 	}
 	
 	//Data Input in Sql.
-	//@Test
+	@Test
 	public void insert()
 	{
 		try 
 		{
-		Class.forName("com.mysql.jdbc.Driver");
+		//Class.forName("com.mysql.jdbc.Driver");
 		con=DriverManager.getConnection("jdbc:mysql://" + property.getProperty("hostname") + ":" +  property.getProperty("port")+ "/" +  property.getProperty("database"),  property.getProperty("username"),  property.getProperty("password"));
 		smt=con.createStatement();
 		String sql="insert into selenium1 values(?,?)";
@@ -101,7 +101,7 @@ public class Selenium {
 	}
 	
 	//Fetching data from database and input that values in website.
-	@Test
+	//@Test
 	public void select() 
 	{
 		
@@ -141,7 +141,7 @@ public class Selenium {
 	}
 	
 	//closing connections.
-	@AfterSuite
+	//@AfterSuite
 	public void end() 
 	{
 		
